@@ -1,6 +1,6 @@
 //time0.cpp -- implement Time methods
 #include <iostream>
-#include "time0.h"
+#include "time1.h"
 
 Time::Time()
 {
@@ -31,7 +31,7 @@ void Time::Reset(int h, int m)
     minutes = m;
 }
 
-Time Time::Sum(const Time &t)const
+Time Time::operator+ (const Time &t)const
 {
     Time sum;
     sum.minutes = minutes + t.minutes;
