@@ -53,7 +53,7 @@ namespace VECTOR
         {
             y = n2;
             set_mag();
-            set_ang;
+            set_ang();
         }
         else if(form == 'p')
         {
@@ -80,7 +80,7 @@ namespace VECTOR
         {
             y = n2;
             set_mag();
-            set_ang;
+            set_ang();
         }
         else if(form == 'p')
         {
