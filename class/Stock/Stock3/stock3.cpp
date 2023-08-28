@@ -36,6 +36,7 @@ Stock::Stock(const char *co, int n, double pr)
 //constructor definition
 Stock::Stock(const std::string & co,int n,double pr)
 {
+    std::cout << "use std:string way to init stock\n";
     company = co;  // assign C-style string to string object
     if(n < 0)
     {
